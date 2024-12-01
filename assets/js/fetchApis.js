@@ -1,7 +1,8 @@
+import { API_URL } from "./env.js";
 // Função para buscar os dados do endpoint
 export default async function fetchImages() {
   try {
-    const response = await fetch("https://insta-back-1-1060771770744.southamerica-east1.run.app/posts"); // Usando a URL importada
+    const response = await fetch(API_URL); // Usando a URL importada
     const data = await response.json();
     return data;
   } catch (error) {
