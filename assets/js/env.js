@@ -1,1 +1,1 @@
-API_URL = "https://insta-back-1-1060771770744.southamerica-east1.run.app/posts"
+export const API_URL = 'https://insta-back-1-1060771770744.southamerica-east1.run.app/posts';
