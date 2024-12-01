@@ -1,5 +1,5 @@
 import fetchImages from "./fetchApis";
-
+import 'dotenv/config';
 const modal = document.getElementById("modal");
 const modalImg = document.getElementById("modal-img");
 const captionText = document.getElementById("caption");
